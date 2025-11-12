@@ -101,7 +101,7 @@ def recursion(..., level):
         compute_partial()
         
         if filter: # 🟡 C - Se necessario filtrare prima di procedere con la ricorsione
-            recursion(..., level  +1)
+            recursion(..., level + 1)
         
         # 🟣 D
         back_tracking()
